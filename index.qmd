@@ -1,29 +1,31 @@
 ---
 title: Mesh Once, Simulate Many
-subtitle: A draft case study for ARC-led collaborative research
+subtitle: A "remixing" approach to ARC-led collaborative research
 author: Alessandro Felder
 date: 02/10/2025
 format:
   revealjs:
-    footer: "ARC Forum | 02/10/2025"
-my-custom-stuff:
-   my-reuseable-variable: "I can use this wherever I want in the markdown, and change it in only once place :)"
+    footer: "ARC Forum | 02/12/2025"
 ---
 
 ## Intro
 
-- Background in Computational Mechanics
-- Experience in biological image processing
+- Original background in Computational Mechanics
+- Later experience in biological image processing
 - Formerly, Senior RSE in "core" ARC
 - Currently, Senior RSE in the [Neuroinformatics Unit](neuroinformatics.dev/about)
+- (food, football, nature)
 
 ## Warning
 
 This is an experimental presentation!
 
 ::: aside
+ARC-led research idea with Mashy Green and Matthew Scroggs.
+Also thanks to Will Graham and Matt Graham.
 I am interested in what you think, especially if you disagree.
 :::
+
 
 ## Observation
 
@@ -47,10 +49,97 @@ This could (always) be better.
 - Align with UCL & funding agencies' priorities
 - Be fun
 
-## One possible solution
+## Possible implementation approaches
 
-Obviously, as an RSE, I immediately want to design a general-purpose framework to meet these requirements!
+- Research about the dRTP profession
+- Research in our existing backgrounds
+- **Remixing our backgrounds and experiences from existing collaboration projects**
+  
+## The "remixing" approach
 
+- Take knowledge we learnt doing a collaboration project and apply it to a new domain
+- Try to explain with a real-world example
+- Give some background first
+
+## The "remixing" approach
+
+Three pieces of open-source software that ARC knows about
+
+* NekMesh is good at making meshes
+* FEniCS is good at solving partial differential equations
+* BrainGlobe is good at aligning images to a common space
+
+## NekMesh
+
+![](img/nekmesh-title.png)
+
+::: aside
+A (volumetric) mesh is a discretization of a 3D object.
+:::
+
+::: {.slide}
+
+<iframe src="https://demo.nekmesh.info/" width="100%" height="600px" style="border: none;"></iframe>
+
+:::
+
+## FEniCS
+
+![](img/fenics-github.png)
+
+## FEniCS solves equations on meshes
+
+![](img/fenics-elasticity.png){ height=500px }
+
+::: aside
+Meshes should be "mathematically nice" so we can solve equations on them.
+Meshing complex geometries like biological organs is hard and doesn't scale well.
+:::
+
+
+## BrainGlobe is good at aligning images to a common space
+
+![](img/brain-atlas-mapping.png){ width=400px }
+
+## Annotate once, map annotations to many
+
+![](img/brain-atlas-mapping-with-annotations.png){ width=400px }
+
+## What if we could mesh only once?
+Using the same image alignment approach
+
+![](img/brain-atlas-mapping-with-mesh.png)
+
+::: aside
+This means building the mapping into the equations.
+:::
+
+## A remixing example
+
+* Take the idea mapping to atlas space from BrainGlobe
+* Augment the idea with a atlas space volumetric mesh
+* Solve PDEs for many samples on the atlas space mesh with FEniCS - scales well!
+* (PDEs are not so interesting for brains, but they are for other organs, like bones!)
+
+
+## Requirements (I _think_)
+
+- Be high-quality research in the traditional sense
+  - novel, useful and impactful
+- Avoid competing with UCL's existing research
+- Align with dRTP values
+  - open-source, recognition for technical contributions, sustainability, accessibility, ...
+- Align with UCL & funding agencies' priorities (?)
+- Be fun
+
+## Things I have left out
+
+* in-depth numerical methods
+* what this would look like in code
+
+## Discussion
+
+Thank you!
 
 
 
