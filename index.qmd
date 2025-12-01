@@ -19,13 +19,16 @@ format:
 ## Warning
 
 This is an experimental presentation!
+Contents:
+* a perspective on ARC-led research
+* explained with an example
+* feat. Mashy Green and Matthew Scroggs.
 
 ::: aside
-ARC-led research idea with Mashy Green and Matthew Scroggs.
-Also thanks to Will Graham and Matt Graham.
-I am interested in what you think, especially if you disagree.
+Thanks to Will Graham and Matt Graham.
 :::
 
+# Perspective
 
 ## Observation
 
@@ -61,7 +64,9 @@ This could (always) be better.
 - Try to explain with a real-world example
 - Give some background first
 
-## The "remixing" approach
+# Background
+
+## ARC people know
 
 Three pieces of open-source software that ARC knows about
 
