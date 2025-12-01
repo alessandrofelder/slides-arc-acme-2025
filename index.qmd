@@ -1,114 +1,141 @@
 ---
-title: A template presentation
-subtitle: Made with Quarto and RevealJS
-author: SWC/GCNU Neuroinformatics Unit
-date: today
+title: Mesh Once, Simulate Many
+subtitle: A draft case study for ARC-led collaborative research
+author: Alessandro Felder
+date: 02/10/2025
 format:
   revealjs:
-    footer: "Location | Event | Date"
+    footer: "ARC Forum | 02/10/2025"
 my-custom-stuff:
    my-reuseable-variable: "I can use this wherever I want in the markdown, and change it in only once place :)"
 ---
 
-## Contents
+## Intro
 
-We can use all the normal markdown features here, like:
+- Background in Computational Mechanics
+- Experience in biological image processing
+- Formerly, Senior RSE in "core" ARC
+- Currently, Senior RSE in the [Neuroinformatics Unit](neuroinformatics.dev/about)
 
-- Bullet lists
-- **Bold text**
-- *Italic text*
-- `Inline code`
+## Warning
 
-::: aside
-[See also example RevealJS slides in the Quarto docs.](https://quarto.org/docs/presentations/revealjs/)
-:::
-
-## Just a code block, nothing gets executed...
-
-... but there is some fancy highlighting
-
-```{.python code-line-numbers="1|3|4-9"}
-from pathlib import Path
-
-home_path = Path.home()
-if home_path.exists():
-  data_path = home_path / "data"
-else:
-  pass
-  # raise some error maybe?
-```
-
-## A code block that's actually executed at render-time
-
-```{python}
-#| echo: true
-#| code-fold: true
-
-from pathlib import Path
-
-print("Hello world")
-```
-
-## You can execute code without showing that you have by using #|echo: false
-```{python}
-#| echo: false
-
-from pathlib import Path
-
-print("Hello world")
-```
-
-{{< include slides/extra_slide.qmd >}}
-
-## An example image
-
-Include an image:
-
-![](img/bg_logo_wide.png){width=900 fig-align=center}
-
-
-## Link and a preview a webpage:
-
-::: {style="text-align: center; margin-top: 1em"}
-[interoperable Python-based tools for computational neuroanatomy](https://brainglobe.info/index.html){preview-link="true" style="text-align: center"}
-:::
-
-## Use a variable several times
-
-Variables defined in the metadata is re-useable anywhere
-
-* {{< meta my-custom-stuff.my-reuseable-variable >}}
-* {{< meta my-custom-stuff.my-reuseable-variable >}}
-
-## Admonitions / Callouts
-
-:::{.callout-note}
-## Note Callout
-
-This is a note callout.
-:::
-
-:::{.callout-tip}
-## Tip Callout
-
-This is a tip callout.
-:::
-
-:::{.callout-warning}
-## Warning Callout
-
-This is a warning callout.
-:::
-
-## Citing references
-
-- To cite references, include them in the `references.bib` BibTeX file
-and then use the syntax `[@citekey]` to cite them.
-- For example, our preprint of the Blackcap brain atlas [@blackcap_preprint].
-- You can preview the reference entry by hovering over the citation, cool!
+This is an experimental presentation!
 
 ::: aside
-[Read more about Quarto citations](https://quarto.org/docs/authoring/citations.html#sec-citations).
+I am interested in what you think, especially if you disagree.
+:::
+
+## Observation
+
+- ARC-led research is part of our mission
+   - ARC fellows 
+   - ARC academic directors
+   - Seed funding mechanism
+   - Alignment with subgroups
+
+::: aside
+This could (always) be better.
+:::
+
+## Requirements (I _think_)
+
+- Be high-quality research in the traditional sense
+  - novel, useful and impactful
+- Avoid competing with UCL's existing research
+- Align with dRTP values
+  - open-source, recognition for technical contributions, sustainability, accessibility, ...
+- Align with UCL & funding agencies' priorities
+- Be fun
+
+## One possible solution
+
+Obviously, as an RSE, I immediately want to design a general-purpose framework to meet these requirements!
+
+
+
+
+
+
+
+## Digital Research Technology Professionals
+
+We support researchers across disciplines.
+
+We see technologies from many fields.
+
+We understand computational approaches broadly.
+
+## Our Unique Position
+
+We can see connections others miss.
+
+Technologies from one discipline can solve problems in another.
+
+We can mix and match approaches.
+
+## Cross-Disciplinary Transfer
+
+::: {.columns}
+::: {.column width="50%"}
+**From Discipline A**
+- Method X
+- Tool Y
+- Approach Z
+:::
+
+::: {.column width="50%"}
+**To Discipline B**
+- New application
+- Different problem
+- Fresh perspective
+:::
+:::
+
+::: aside
+TODO: Replace with actual example of technology transfer
+:::
+
+## Concrete Example
+
+::: {.callout-note}
+## TODO: Add Your Example
+
+Choose a specific case where:
+- A technology/method from one field was applied to another
+- Or multiple approaches were combined
+- Show the impact or benefit
+:::
+
+## Example Structure {.smaller}
+
+**Original Context:**
+- TODO: Describe where the technology came from
+- TODO: What problem it solved originally
+
+**New Application:**
+- TODO: Describe the new field/problem
+- TODO: How it was adapted
+
+**Outcome:**
+- TODO: What was achieved
+- TODO: Why it mattered
+
+## Why This Matters
+
+Research technologists bridge disciplines.
+
+We enable innovation through technology transfer.
+
+We accelerate discovery by connecting dots.
+
+## Takeaways
+
+- Research technologists have unique cross-disciplinary perspective
+- Technologies can be transferred and adapted
+- Mixing approaches creates new solutions
+
+::: aside
+TODO: Add any final thoughts, call to action, or contact information
 :::
 
 ## References {.smaller}
