@@ -22,11 +22,8 @@ This is an experimental presentation!
 Contents:
 * A perspective on ARC-led research
 * Explained with an example
-* Feat. Mashy Green and Matthew Scroggs.
 
-::: aside
-Thanks to Will Graham and Matt Graham.
-:::
+
 
 # Perspective
 
@@ -149,3 +146,7 @@ This means building the mapping into the equations.
 ## Discussion
 
 Thank you!
+
+::: aside
+Special thanks to Will Graham and Matt Graham.
+:::
