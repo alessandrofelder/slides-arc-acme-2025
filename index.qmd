@@ -10,19 +10,19 @@ format:
 
 ## Intro
 
-- Original background in Computational Mechanics
-- Later experience in biological image processing
+- Original background in Computational Mechanics ⚙️
+- Later experience in biological image processing 🔬
 - Formerly, Senior RSE in "core" ARC
 - Currently, Senior RSE in the [Neuroinformatics Unit](neuroinformatics.dev/about)
 - (food, football, nature)
 
-## Warning
+## Warning ⚠️
 
 This is an experimental presentation!
 Contents:
-* a perspective on ARC-led research
-* explained with an example
-* feat. Mashy Green and Matthew Scroggs.
+* A perspective on ARC-led research
+* Explained with an example
+* Feat. Mashy Green and Matthew Scroggs.
 
 ::: aside
 Thanks to Will Graham and Matt Graham.
@@ -70,7 +70,7 @@ I think ARC is particularly well-placed for this.
 
 # Background
 
-## ARC people know
+## ARC people know a lot
 
 Three pieces of open-source software that ARC knows about
 
@@ -131,7 +131,7 @@ This means building the mapping into the equations.
 * (PDEs are not so interesting for brains, but they are for other organs, like bones!)
 
 
-## Requirements (I _think_)
+## Meets the Requirements (I _think_)
 
 - Be high-quality research in the traditional sense
   - novel, useful and impactful
@@ -149,96 +149,3 @@ This means building the mapping into the equations.
 ## Discussion
 
 Thank you!
-
-
-
-
-
-
-## Digital Research Technology Professionals
-
-We support researchers across disciplines.
-
-We see technologies from many fields.
-
-We understand computational approaches broadly.
-
-## Our Unique Position
-
-We can see connections others miss.
-
-Technologies from one discipline can solve problems in another.
-
-We can mix and match approaches.
-
-## Cross-Disciplinary Transfer
-
-::: {.columns}
-::: {.column width="50%"}
-**From Discipline A**
-- Method X
-- Tool Y
-- Approach Z
-:::
-
-::: {.column width="50%"}
-**To Discipline B**
-- New application
-- Different problem
-- Fresh perspective
-:::
-:::
-
-::: aside
-TODO: Replace with actual example of technology transfer
-:::
-
-## Concrete Example
-
-::: {.callout-note}
-## TODO: Add Your Example
-
-Choose a specific case where:
-- A technology/method from one field was applied to another
-- Or multiple approaches were combined
-- Show the impact or benefit
-:::
-
-## Example Structure {.smaller}
-
-**Original Context:**
-- TODO: Describe where the technology came from
-- TODO: What problem it solved originally
-
-**New Application:**
-- TODO: Describe the new field/problem
-- TODO: How it was adapted
-
-**Outcome:**
-- TODO: What was achieved
-- TODO: Why it mattered
-
-## Why This Matters
-
-Research technologists bridge disciplines.
-
-We enable innovation through technology transfer.
-
-We accelerate discovery by connecting dots.
-
-## Takeaways
-
-- Research technologists have unique cross-disciplinary perspective
-- Technologies can be transferred and adapted
-- Mixing approaches creates new solutions
-
-::: aside
-TODO: Add any final thoughts, call to action, or contact information
-:::
-
-## References {.smaller}
-
-This is how you create a references section, i.e. a bibliography.
-
-::: {#refs}
-:::
