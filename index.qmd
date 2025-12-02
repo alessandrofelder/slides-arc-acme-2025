@@ -13,7 +13,7 @@ format:
 - Original background in Computational Mechanics ⚙️
 - Later experience in biological image processing 🔬
 - Formerly, Senior RSE in "core" ARC
-- Currently, Senior RSE in the [Neuroinformatics Unit](neuroinformatics.dev/about)
+- Currently, Senior RSE in the [Neuroinformatics Unit](https://neuroinformatics.dev/about)
 - (food, football, nature)
 
 ## Warning ⚠️
@@ -110,7 +110,7 @@ Meshing complex geometries like biological organs is hard and doesn't scale well
 ## What if we could mesh only once?
 Using the same image alignment approach
 
-![](img/brain-atlas-mapping-with-mesh.png)
+![](img/brain-atlas-mapping-with-mesh.png){ width=400px }
 
 ::: aside
 This means building the mapping into the equations.
