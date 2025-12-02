@@ -110,7 +110,7 @@ Meshing complex geometries like biological organs is hard and doesn't scale well
 ## What if we could mesh only once?
 Using the same image alignment approach
 
-![](img/brain-atlas-mapping-with-mesh.png){ width=400px }
+![](img/brain-atlas-mapping-with-mesh.png){ width=700px }
 
 ::: aside
 This means building the mapping into the equations.
@@ -138,6 +138,7 @@ This means building the mapping into the equations.
 
 * in-depth numerical methods
 * what this would look like in code
+* grant writing tips I have gathered
 
 ## Discussion
 
