@@ -19,7 +19,9 @@ format:
 ## Warning ⚠️
 
 This is an experimental presentation!
+
 Contents:
+
 * A perspective on ARC-led research
 * Explained with an example
 
@@ -55,12 +57,6 @@ This could (always) be better.
 - Research in our existing backgrounds
 - **"Remixing" our backgrounds and experiences from existing collaboration projects to new applications**
   
-## The "remixing" approach
-
-- Take knowledge we learnt doing a collaboration project and apply it to a new domain
-- Try to explain with a real-world example
-- Give some background first
-
 ::: aside
 I think ARC is particularly well-placed for this.
 :::
